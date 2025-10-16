@@ -27,7 +27,7 @@
 .navbar-nav {
   background-color: transparent;
 }
-.nav-item a{
+.nav-link a{
   font-size:20px;
 }
 .hero .navbar .nav-link ,
@@ -248,6 +248,7 @@ header a {
   height: 300px;
 
 }
+
 
 
 
