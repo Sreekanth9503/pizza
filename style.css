@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 110vh;
+  height: 70vh;
   margin: auto;
   border-radius: 30px;
 }
@@ -230,4 +230,5 @@ header a {
 }
 .pizza .card-body img{
   height: 300px;
+
 }
