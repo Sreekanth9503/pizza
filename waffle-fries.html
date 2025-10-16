@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header class="container-fluid p-5">
+        <div class="pepperoni-head" style="border-radius: 30px;">
+            <div>
+                <h4 class="hero-head text-light w-100 text-center ps-5 py-3" style="border-bottom: 1px dotted lightgrey;">
+                    Free delivery for all orders over $50. Order your food now!
+                </h4>
+            </div>
+            <nav class="navbar navbar-expand-xl navbar-light text-light">
+                <div class="container">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="assets/home-logo.svg" alt="Logo" class="m-auto p-0" style="height: 70px;">
+                    </a>
+                    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-5" style="font-size: 18px;">
+                            <li class="nav-item dropdown px-4">
+                                <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Home
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="homeDropdown">
+                                    <li><a class="dropdown-item  fw-medium" href="index.html">Home 1</a></li>
+                                    <li><a class="dropdown-item  fw-medium" href="home.html">Home 2</a></li>
+                                </ul>
+                            </li>   
+                            <li class="nav-item dropdown px-2 position-static">
+                                <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Menu
+                                </a>
+                                <div class="dropdown-menu w-100 p-3" aria-labelledby="pagesDropdown">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-lg">
+                                                <img src="assets/home-categories-icon-1.svg" class="img-fluid mb-2" alt="Pizza">
+                                                <a class="dropdown-item fs-4 fw-medium" href="#">Pizza</a>
+                                                <a class="dropdown-item fw-medium" href="pepperoni.html">Pepperoni</a>
+                                                <a class="dropdown-item fw-medium" href="cheddar.html">Glute-Free Pizza</a>
+                                                <a class="dropdown-item fw-medium" href="mozarella.html">Mozarella</a>
+                                                <a class="dropdown-item fw-medium" href="burrata.html">Burrata</a>
+                                                <a class="dropdown-item fw-medium" href="prosciutto.html">Prosciutto</a>
+                                                <a class="dropdown-item fw-medium" href="bacon.html">Vegetarian Pizza</a>
+                                            </div>
+                                            <div class="col-lg">
+                                                <img src="assets/home-categories-icon-2.svg" class="img-fluid mb-2" alt="Dessert">
+                                                <a class="dropdown-item fs-4 fw-medium" href="#">Desserts</a>
+                                                <a class="dropdown-item fw-medium" href="red-velvet.html">Red Velvet Cake</a>
+                                                <a class="dropdown-item fw-medium" href="chocolate-lava.html">Chocolate Lava Cake</a>
+                                                <a class="dropdown-item fw-medium" href="sponge-cake.html">Sponge Cake</a>
+                                                <a class="dropdown-item fw-medium" href="musk-bun.html">Musk Bun</a>
+                                                <a class="dropdown-item fw-medium" href="honey-cake.html">Honey Cake</a>
+                                                <a class="dropdown-item fw-medium" href="donut.html">Donut</a>
+                                            </div>
+                                            <div class="col-lg">
+                                                <img src="assets/home-categories-icon-3.svg" class="img-fluid mb-2" alt="Drinks">
+                                                <a class="dropdown-item fs-4 fw-medium" href="#">Drinks</a>
+                                                <a class="dropdown-item fw-medium" href="coca-cola.html">Coca-Cola</a>
+                                                <a class="dropdown-item fw-medium" href="Pepsi.html">Pepsi</a>
+                                                <a class="dropdown-item fw-medium" href="sprite.html">Sprite</a>
+                                                <a class="dropdown-item fw-medium" href="maaza.html">Maaza</a>
+                                                <a class="dropdown-item fw-medium" href="thums-up.html">Thums-up</a>
+                                                <a class="dropdown-item fw-medium" href="red-bull.html">Red Bull</a>
+                                            </div>
+                                            <div class="col-lg">
+                                                <img src="assets/home-categories-icon-5.svg" class="img-fluid mb-2" alt="Wraps">
+                                                <a class="dropdown-item fs-4 fw-medium" href="#">Wraps</a>
+                                                <a class="dropdown-item fw-medium" href="chicken-wrap.html">Chicken Wrap</a>
+                                                <a class="dropdown-item fw-medium" href="grilled-chicken-wrap.html">Grilled Chicken Wrap</a>
+                                                <a class="dropdown-item fw-medium" href="tuna-wrap.html">Tuna Wrap</a>
+                                                <a class="dropdown-item fw-medium" href="turkey-wrap.html">Turkey Wrap</a>
+                                                <a class="dropdown-item fw-medium" href="roast-beef-wrap.html">Roast beef Wrap</a>
+                                                <a class="dropdown-item fw-medium" href="spicy-italian-wrap.html">Spicy Italian Wrap</a>
+                                            </div>
+                                            <div class="col-lg">
+                                                <img src="assets/home-categories-icon-6.svg" class="img-fluid mb-2" alt="Fries">
+                                                <a class="dropdown-item fs-4 fw-medium" href="#">Fries</a>
+                                                <a class="dropdown-item fw-medium" href="sweet-potato-fries.html">Sweet Potato Fries</a>
+                                                <a class="dropdown-item fw-medium" href="garlic-fries.html">Garlic Fries</a>
+                                                <a class="dropdown-item fw-medium" href="potato-wedges.html">Potato Wedges</a>
+                                                <a class="dropdown-item fw-medium" href="waffle-fries.html">Waffle Fries</a>
+                                                <a class="dropdown-item fw-medium" href="cheese-fries.html">Cheese Fries</a>
+                                                <a class="dropdown-item fw-medium" href="chilli-cheese-fries.html">Chilli Cheese Fries</a>
+                                            </div>
+                                            <div class="col-lg">
+                                                <img src="assets/home-categories-icon-7.svg" class="img-fluid mb-2" alt="Burgers">
+                                                <a class="dropdown-item fs-4 fw-medium" href="#">Burgers</a>
+                                                <a class="dropdown-item fw-medium" href="cheese-burger.html">Cheese Burger</a>
+                                                <a class="dropdown-item fw-medium" href="chicken-burger.html">Chicken Burger</a>
+                                                <a class="dropdown-item fw-medium" href="veggie-burger.html">Veggie Burger</a>
+                                                <a class="dropdown-item fw-medium" href="McChicken-burger.html">McChicken Burger</a>
+                                                <a class="dropdown-item fw-medium" href="bacon-burger.html">Bacon Burger</a>
+                                                <a class="dropdown-item fw-medium" href="onion-burger.html">Onion Burger</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown px-2 position-static">
+                                <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Shop
+                                </a>
+                                <div class="dropdown-menu w-50 p-3" aria-labelledby="pagesDropdown">
+                                    <div class="container-fluid">
+                                        <div class="row m-auto">
+                                            <div class="col-lg">
+                                                <a class="dropdown-item fs-4 fw-medium" href="#">Shop List</a>
+                                                <a class="dropdown-item fs-5 fw-medium" href="shop.html">Shop list</a>
+                                            </div>
+                                            <div class="col-lg">
+                                                <a class="dropdown-item fs-4 fw-medium" href="#">Product Types</a>
+                                                <a class="dropdown-item fw-medium" href="chicken-burger.html">Simple Product</a>
+                                                <a class="dropdown-item fw-medium" href="variable-product.html">Variable Product</a>
+                                                <a class="dropdown-item fw-medium" href="external-product.html">External Product</a>
+                                                <a class="dropdown-item fw-medium" href="grouped-product.html">Grouped Product</a>
+                                                <a class="dropdown-item fw-medium" href="sale-product.html">On sale Product</a>
+                                                <a class="dropdown-item fw-medium" href="no-stock.html">Out of Stock</a>
+                                            </div>
+                                            <div class="col-lg">
+                                                <a class="dropdown-item fs-4 fw-medium" href="#">Shop Pages</a>
+                                                <a class="dropdown-item fs-5 fw-medium" href="account.html">My Account</a>
+                                                <a class="dropdown-item fs-5 fw-medium" href="cart.html">Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown px-2">
+                                <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="homeDropdown">
+                                    <li><a class="dropdown-item fw-medium" href="about.html">About</a></li>
+                                    <li><a class="dropdown-item fw-medium" href="contact.html">Contact</a></li>
+                                    <li><a class="dropdown-item fw-medium" href="blog.html">Blog</a></li>
+                                    <li><a class="dropdown-item fw-medium" href="blog-list.html">Blog list</a></li>
+                                    <li><a class="dropdown-item fw-medium" href="single.html">Single</a></li>
+                                </ul>
+                            </li> 
+                            <li class="nav-item dropdown px-2">
+                                <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Book a Table
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="homeDropdown">
+                                    <li><a class="dropdown-item fw-medium" href="#">Booking</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div>
+                            <i class="bi bi-telephone fs-2 ps-5"></i>
+                        </div>
+                        <div class="mx-3 pe-3 d-none d-lg-block">
+                            <h5 class="mb-0 fw-bold">Order Now</h5>
+                            <h5 class="mb-0">+1 840 – 841 25 69</h5>
+                        </div>
+                        <div>
+                            <a href="account.html"><i class="bi bi-person-fill  ps-5 text-light fs-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>     
+            <div class="pb-5">
+                <h1 class="fw-bold text-center text-light pt-5" style="font-size: 70px;">Waffle Fries</h1>
+                <h3 class="text-light text-center py-3"><a href="index.html" class="text-light">Home</a>/Waffle Fries</h3>
+            </div>
+        </div>
+    </header>
+    <section class="container my-5">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="assets/fries-4.jpeg" class="w-75 m-auto p-5 " style="height: 600px;" alt="">
+            </div>
+            <div class="col-lg-6">
+                <div class="text-center p-5 pb-3">
+                    <h1 class="fw-medium " style="font-size: 50px;" >Waffle Fries</h1>
+                    <h3 class="fw-medium pt-3"  style="color: rgb(198, 20, 20);" >$100.00</h3>
+                    <p class="fw-medium pt-3" style="font-size: 20px;">Chicken, lettuce, tomato, cheese, and our original sauce wrapped in a soft tortilla</p>
+                </div>
+                <div class="d-flex  justify-content-center pb-3">
+                <button class="btn fw-medium fs-3 px-3" onclick="decreaseQty()">-</button>
+                <input type="text" id="quantity" class="form-control text-center fw-medium fs-5 mx-2" 
+                        value="1" style="width:80px;" readonly>
+                <button class="btn fw-medium fs-3 px-3" onclick="increaseQty()">+</button>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div><a href="" class=""><button class="btn btn-danger rounded-pill fs-4  fw-medium px-5 py-2">Add to cart</button></a></div>
+                </div>
+                <div>
+                    <h5 class="fw-medium text-center pt-3">Category: wraps, Waffle Fries</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <h1 class="fw-bold text-center" style="font-size: 40px;">Description</h1>
+        <div class="text-center p-5 fw-medium" style="font-size: 20px;">
+            <p>Waffle Fries! A Waffle Fries makes for a quick midweek meal or weekend BBQ’s with friends! Crispy seasoned chicken breast, topped with mandatory melted cheese, piled onto soft rolls with onion, avocado, lettuce, tomato and garlic mayo.</p>
+        </div>
+    </section>
+    <section class="container-fluid my-5">
+        <h1 class="text-center fs-auto fw-bold">You may also like</h1>
+        <div class="container">
+            <div class="row">
+                <div class=" col-md-6 col-lg-3">
+                    <div class="wrap card border-0">
+                        <div class="card-body text-center">
+                            <a href="garlic-fries.html"><img src="assets/fries-2.jpeg" class="w-100 " alt=""></a>
+                            <h5>Garlic Fries</h5>
+                            <h4  style="color: rgb(198, 20, 20) ;">$100.00</h4>
+                            <a href=""><button class="btn btn-outline-danger rounded-pill fs-4 fw-medium px-5 py-2">Add to cart</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-md-6 col-lg-3">
+                    <div class="wrap card border-0">
+                        <div class="card-body text-center">
+                            <a href="sweet-potato-fries.html"><img src="assets/fries-1.jpeg" class="w-100" alt=""></a>
+                            <h5>Sweet Potato Fries</h5>
+                            <h4  style="color: rgb(198, 20, 20) ;">$100.00</h4>
+                            <a href=""><button class="btn btn-outline-danger rounded-pill fs-4 fw-medium px-5 py-2">Add to cart</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-md-6 col-lg-3">
+                    <div class="wrap card border-0">
+                        <div class="card-body text-center">
+                            <a href="chilli-cheese-fries.html"><img src="assets/fries-6.jpeg" class="w-100 pt-4 pb-3" alt=""></a>
+                            <h5>Chilli Cheese Fries</h5>
+                            <h4  style="color: rgb(198, 20, 20) ;">100.00</h4>
+                            <a href=""><button class="btn btn-outline-danger rounded-pill fs-4 fw-medium px-5 py-2">Add to cart</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-md-6 col-lg-3">
+                    <div class="wrap card border-0">
+                        <div class="card-body text-center">
+                            <a href="cheese-fries.html"><img src="assets/fries-5.jpeg" class="w-100 pt-4 pb-3" alt=""></a>
+                            <h5>Cheese Fries</h5>
+                            <h4  style="color: rgb(198, 20, 20) ;">$100.00</h4>
+                            <a href=""><button class="btn btn-outline-danger rounded-pill fs-4 fw-medium px-5 py-2">Add to cart</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="signup container-fluid my-5" style="border-radius: 30px;" >
+        <div class="row">
+            <div class="col-lg-4 m-auto">
+                <div>
+                    <img src="assets/signup.svg" class="w-100" alt="">
+                </div>
+            </div>
+            <div class="col-lg-8 m-auto p-5">
+                <div class="text-center">
+                    <h4 class=" fs-3 fw-medium text-center" style="color: rgb(198, 20, 20);">Our Newsletter</h4>
+                    <h1 class="fs-auto fw-medium text-center">Sign up and get 10% off</h1>
+                    <form action="index.html" name="email-login" class="m-auto w-75 mt-3" onsubmit="return ValidateEmail()">
+                        <div class="form-floating">
+                            <input type="text" name="email" id="email" placeholder="Email Address" class="form-control  rounded-pill" >
+                            <p id="emailError" class="fw-medium fs-4 pt-1 text-start text-danger"></p>
+                            <label for="">Email Address</label>
+                            <a href=""><button class="btn btn-danger  mt-3 rounded-pill fs-4 fw-medium px-5 py-2">Add to cart</button></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="email.js"></script>
+    <footer class="footer">
+        <div class="container ">
+            <div class="text-center mb-4">
+                <h4>A Moments Of Delivered On Right Time & Place</h4>
+                <div class="phone-box mx-auto">
+                <i class="fas fa-phone-alt"></i> 90-500-28-999
+                </div>
+                <h3 class="fw-bold" style="font-family: cursive;">Pizzenia</h3>
+            </div>
+            <div class="row text-center py-5 " style="border-top: 1px dotted lightgrey;">
+                <div class="col-md-6 col-lg-3">
+                    <h5>Menu</h5>
+                    <p><a href="#">Pizzas</a></p>
+                    <p><a href="#">Italian dishes</a></p>
+                    <p><a href="#">Hand Made</a></p>
+                    <p><a href="#">Deserts</a></p>
+                    <p><a href="#">Selected Wines</a></p>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h5>Info</h5>
+                    <p><a href="#">About</a></p>
+                    <p><a href="#">Contact Us</a></p>
+                    <p><a href="#">Our Menu</a></p>
+                    <p><a href="#">Blog</a></p>
+                    <p><a href="#">Faq</a></p>
+                </div>
+                <div class="col-lg-3">
+                    <h5>Contact</h5>
+                    <p>PO Box 16122 Collins</p>
+                    <p>StreetWest Victoria 8007</p>
+                    <p>Australia</p>
+                    <p>(643) 461-5630 8566</p>
+                    <p>Mon-Fri: 9:30 - 23:00</p>
+                    <p class="text-primary fw-bold">Sunday Closed</p>
+                </div>
+                <div class="col-lg-3">
+                    <h5>Download Our App</h5>
+                    <div class="app-btn">
+                        <img src="assets/playstore.svg" class="w-100 px-5" alt="">
+                    </div>
+                    <div class="app-btn">
+                        <img src="assets/appstore.svg" class="w-100 px-5" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>

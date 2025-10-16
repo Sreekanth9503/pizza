@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header class="container-fluid p-5">
+        <div class="pepperoni-head" style="border-radius: 30px;">
+            <div>
+                <h4 class="hero-head text-light w-100 text-center ps-5 py-3" style="border-bottom: 1px dotted lightgrey;">
+                    Free delivery for all orders over $50. Order your food now!
+                </h4>
+            </div>
+            <nav class="navbar navbar-expand-xl navbar-light text-light">
+                <div class="container">
+                    <a href="#" class="navbar-brand">
+                        <img src="assets/home-logo.svg" alt="Logo" class="m-auto p-0" style="height: 70px;">
+                    </a>
+                    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-5" style="font-size: 18px;">
+                            <li class="nav-item dropdown px-4">
+                                <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Home
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="homeDropdown">
+                                    <li><a class="dropdown-item  fw-medium" href="index.html">Home 1</a></li>
+                                    <li><a class="dropdown-item  fw-medium" href="home.html">Home 2</a></li>
+                                </ul>
+                            </li>   
+                            <li class="nav-item dropdown px-2 position-static">
+                                <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Menu
+                                </a>
+                                <div class="dropdown-menu w-100 p-3" aria-labelledby="pagesDropdown">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-lg">
+                                                <img src="assets/home-categories-icon-1.svg" class="img-fluid mb-2" alt="Pizza">
+                                                <a class="dropdown-item fs-4 fw-medium" href="#">Pizza</a>
+                                                <a class="dropdown-item fw-medium" href="pepperoni.html">Pepperoni</a>
+                                                <a class="dropdown-item fw-medium" href="cheddar.html">Glute-Free Pizza</a>
+                                                <a class="dropdown-item fw-medium" href="mozarella.html">Mozarella</a>
+                                                <a class="dropdown-item fw-medium" href="burrata.html">Burrata</a>
+                                                <a class="dropdown-item fw-medium" href="prosciutto.html">Prosciutto</a>
+                                                <a class="dropdown-item fw-medium" href="bacon.html">Vegetarian Pizza</a>
+                                            </div>
+                                            <div class="col-lg">
+                                                <img src="assets/home-categories-icon-2.svg" class="img-fluid mb-2" alt="Dessert">
+                                                <a class="dropdown-item fs-4 fw-medium" href="#">Desserts</a>
+                                                <a class="dropdown-item fw-medium" href="#">Pepperoni</a>
+                                                <a class="dropdown-item fw-medium" href="#">Glute-Free Pizza</a>
+                                                <a class="dropdown-item fw-medium" href="#">Mozarella</a>
+                                                <a class="dropdown-item fw-medium" href="#">Burrata</a>
+                                                <a class="dropdown-item fw-medium" href="#">Prosciutto</a>
+                                                <a class="dropdown-item fw-medium" href="#">Vegetarian Pizza</a>
+                                            </div>
+                                            <div class="col-lg">
+                                                <img src="assets/home-categories-icon-3.svg" class="img-fluid mb-2" alt="Drinks">
+                                                <a class="dropdown-item fs-4 fw-medium" href="#">Drinks</a>
+                                                <a class="dropdown-item fw-medium" href="#">Pepperoni</a>
+                                                <a class="dropdown-item fw-medium" href="#">Glute-Free Pizza</a>
+                                                <a class="dropdown-item fw-medium" href="#">Mozarella</a>
+                                                <a class="dropdown-item fw-medium" href="#">Burrata</a>
+                                                <a class="dropdown-item fw-medium" href="#">Prosciutto</a>
+                                                <a class="dropdown-item fw-medium" href="#">Vegetarian Pizza</a>
+                                            </div>
+                                            <div class="col-lg">
+                                                <img src="assets/home-categories-icon-4.svg" class="img-fluid mb-2" alt="Tacos">
+                                                <a class="dropdown-item fs-4 fw-medium" href="#">Tacos</a>
+                                                <a class="dropdown-item fw-medium" href="#">Pepperoni</a>
+                                                <a class="dropdown-item fw-medium" href="#">Glute-Free Pizza</a>
+                                                <a class="dropdown-item fw-medium" href="#">Mozarella</a>
+                                                <a class="dropdown-item fw-medium" href="#">Burrata</a>
+                                                <a class="dropdown-item fw-medium" href="#">Prosciutto</a>
+                                                <a class="dropdown-item fw-medium" href="#">Vegetarian Pizza</a>
+                                            </div>
+                                            <div class="col-lg">
+                                                <img src="assets/home-categories-icon-5.svg" class="img-fluid mb-2" alt="Wraps">
+                                                <a class="dropdown-item fs-4 fw-medium" href="#">Wraps</a>
+                                                <a class="dropdown-item fw-medium" href="#">Pepperoni</a>
+                                                <a class="dropdown-item fw-medium" href="#">Glute-Free Pizza</a>
+                                                <a class="dropdown-item fw-medium" href="#">Mozarella</a>
+                                                <a class="dropdown-item fw-medium" href="#">Burrata</a>
+                                                <a class="dropdown-item fw-medium" href="#">Prosciutto</a>
+                                                <a class="dropdown-item fw-medium" href="#">Vegetarian Pizza</a>
+                                            </div>
+                                            <div class="col-lg">
+                                                <img src="assets/home-categories-icon-6.svg" class="img-fluid mb-2" alt="Fries">
+                                                <a class="dropdown-item fs-4 fw-medium" href="#">Fries</a>
+                                                <a class="dropdown-item fw-medium" href="#">Pepperoni</a>
+                                                <a class="dropdown-item fw-medium" href="#">Glute-Free Pizza</a>
+                                                <a class="dropdown-item fw-medium" href="#">Mozarella</a>
+                                                <a class="dropdown-item fw-medium" href="#">Burrata</a>
+                                                <a class="dropdown-item fw-medium" href="#">Prosciutto</a>
+                                                <a class="dropdown-item fw-medium" href="#">Vegetarian Pizza</a>
+                                            </div>
+                                            <div class="col-lg">
+                                                <img src="assets/home-categories-icon-7.svg" class="img-fluid mb-2" alt="Burgers">
+                                                <a class="dropdown-item fs-4 fw-medium" href="#">Burgers</a>
+                                                <a class="dropdown-item fw-medium" href="#">Pepperoni</a>
+                                                <a class="dropdown-item fw-medium" href="#">Glute-Free Pizza</a>
+                                                <a class="dropdown-item fw-medium" href="#">Mozarella</a>
+                                                <a class="dropdown-item fw-medium" href="#">Burrata</a>
+                                                <a class="dropdown-item fw-medium" href="#">Prosciutto</a>
+                                                <a class="dropdown-item fw-medium" href="#">Vegetarian Pizza</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown px-2 position-static">
+                                <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Shop
+                                </a>
+                                <div class="dropdown-menu w-50 p-3" aria-labelledby="pagesDropdown">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-lg">
+                                                <a class="dropdown-item fs-4 fw-medium" href="#">Shop List</a>
+                                                <a class="dropdown-item fs-5 fw-medium" href="#">Shop list</a>
+                                            </div>
+                                            <div class="col-lg">
+                                                <a class="dropdown-item fs-4 fw-medium" href="#">Product Types</a>
+                                                <a class="dropdown-item fw-medium" href="chicken-burger.html">Simple Product</a>
+                                                <a class="dropdown-item fw-medium" href="variable-product.html">Variable Product</a>
+                                                <a class="dropdown-item fw-medium" href="external-product.html">External Product</a>
+                                                <a class="dropdown-item fw-medium" href="grouped-product.html">Grouped Product</a>
+                                                <a class="dropdown-item fw-medium" href="sale-product.html">On sale Product</a>
+                                                <a class="dropdown-item fw-medium" href="no-stock.html">Out of Stock</a>
+                                            </div>
+                                            <div class="col-lg">
+                                                <a class="dropdown-item fs-4 fw-medium" href="#">Shop Pages</a>
+                                                <a class="dropdown-item fs-5 fw-medium" href="account.html">My Account</a>
+                                                <a class="dropdown-item fs-5 fw-medium" href="cart.html">Cart</a>
+                                                <a class="dropdown-item fs-5 fw-medium" href="checkout.html">Checkout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown px-2">
+                                <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="homeDropdown">
+                                    <li><a class="dropdown-item fw-medium" href="about.html">About</a></li>
+                                    <li><a class="dropdown-item fw-medium" href="contact.html">Contact</a></li>
+                                    <li><a class="dropdown-item fw-medium" href="blog.html">Blog</a></li>
+                                    <li><a class="dropdown-item fw-medium" href="blog-list.html">Blog list</a></li>
+                                    <li><a class="dropdown-item fw-medium" href="single.html">Single</a></li>
+                                </ul>
+                            </li> 
+                            <li class="nav-item dropdown px-2">
+                                <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Book a Table
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="homeDropdown">
+                                    <li><a class="dropdown-item fw-medium" href="#">Booking</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div>
+                            <i class="bi bi-telephone fs-2 ps-5"></i>
+                        </div>
+                        <div class="mx-3 pe-3 d-none d-lg-block">
+                            <h5 class="mb-0 fw-bold">Order Now</h5>
+                            <h5 class="mb-0">+1 840 – 841 25 69</h5>
+                        </div>
+                        <div>
+                            <a href=""><i class="bi bi-person-fill  ps-5 text-light fs-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>  
+            <div class="pb-5">
+                <h1 class="fw-bold text-center text-light pt-5" style="font-size: 70px;">About</h1>
+                <h3 class="text-light text-center py-3"><a href="index.html" class="text-light">Home</a>/ about</h3>
+            </div>
+        </div>
+    </header>
+    <section class="about-head container-fluid">
+        <div class="row">
+            <div class="col-lg-6">
+            <div class="p-5">
+                <div class="p-5">
+                    <h3 class="fw-medium fs-1"  style="color: rgb(198, 20, 20);padding-top:60px;" >Who we are</h3>
+                    <h1 class="fw-medium  pt-3" style="font-size:50px ;">Enjoy An Exceptional Journey of Taste</h1>
+                    <p class="fw-medium pt-3 fs-5">We are provide you with the complete meal which includes the prepackaged necessary ingredients for a divine dinner as well as easy to recipe. Seamlessly conceptualize sticky functionalities after prospective customized.</p>
+                    <a href="shop.html"><button class="home-offer-btn px-4 py-2 rounded-pill fs-4 fw-medium text-bg-warning" style="border: none;">Show More</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="p-5">
+                <img src="assets/about-head-img.png" class="w-100" alt="">
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="container-fluid g-2">
+        <div class="row text-light text-center my-5 mx-5" style="background-color: rgb(198, 20, 20); border-radius:30px;">
+            <div class="col-md-6 col-lg-3 p-5">
+                <div><h5>Locally Sourced and Seasonal Ingredients</h5></div>
+            </div>
+            <div class="col-md-6 col-lg-3 p-5">
+                <div><h5>Inviting Ambience and Exceptional Service</h5></div>
+            </div>
+            <div class="col-md-6 col-lg-3 p-5">
+                <div><h5>Free Shipping on Orders Over $300</h5></div>
+            </div>
+            <div class="col-md-6 col-lg-3 p-5">
+                <div><h5>No Minimum Order</h5></div>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="text-center">
+            <h4 class=" fs-3 fw-medium" style="color: rgb(198, 20, 20);">Team Member</h4>
+            <h1 class="fs-1 fw-bold">Meet our expert chefs</h1>
+            <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <div>
+                        <div class="chef-img p-3" ><img src="assets/about-chef-1.png" alt=""></div>
+                    </div>
+                    <div>
+                        <h3 class="pt-2">Wade Warren</h3>
+                        <p class="fs-5">VP of culinary</p>
+                    </div>
+                    <div class="text-center pt-2">
+                        <i class="bi bi-facebook ps-2"></i>
+                        <i class="bi bi-twitter ps-2"></i>
+                        <i class="bi bi-instagram ps-2"></i>
+                        <i class="bi bi-linkedin ps-2"></i>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div>
+                        <div class="chef-img p-3" ><img src="assets/about-chef-2.png" alt=""></div>
+                    </div>
+                    <div>
+                        <h3 class="pt-2">Guy Hawkins</h3>
+                        <p class="fs-5">Cook</p>
+                    </div>
+                    <div class="text-center pt-2">
+                        <i class="bi bi-facebook ps-2"></i>
+                        <i class="bi bi-twitter ps-2"></i>
+                        <i class="bi bi-instagram ps-2"></i>
+                        <i class="bi bi-linkedin ps-2"></i>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div>
+                        <div class="chef-img p-3" ><img src="assets/about-chef-3.png" alt=""></div>
+                    </div>
+                    <div>
+                        <h3 class="pt-2">Theresa Webb</h3>
+                        <p class="fs-5">Executive Sous Chef</p>
+                    </div>
+                    <div class="text-center pt-2">
+                        <i class="bi bi-facebook ps-2"></i>
+                        <i class="bi bi-twitter ps-2"></i>
+                        <i class="bi bi-instagram ps-2"></i>
+                        <i class="bi bi-linkedin ps-2"></i>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div>
+                        <div class="chef-img p-3" ><img src="assets/about-chef-4.png" alt=""></div>
+                    </div>
+                    <div>
+                        <h3 class="pt-2">Floyd Miles</h3>
+                        <p class="fs-5">Line Cook</p>
+                    </div>
+                    <div class="text-center pt-2">
+                        <i class="bi bi-facebook ps-2"></i>
+                        <i class="bi bi-twitter ps-2"></i>
+                        <i class="bi bi-instagram ps-2"></i>
+                        <i class="bi bi-linkedin ps-2"></i>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <section class="container-flluid m-5 py-5 text-center" style="background-color: rgb(255, 241, 215); border-radius:30px">
+        <h4 class=" fs-3 fw-medium" style="color: rgb(198, 20, 20);">Choose Your Flavor</h4>
+        <h1 class=" fw-bold fs-auto">what people say</h1>
+        <img src="assets/home-pic.jpeg" alt="">
+        <h5 class="fw-medium pt-3">Leslie <br> alexander</h5>
+        <p class="fw-medium">President of <br> Sales</p>
+        <h3 class="fw-bold fs-2">“Forget the trendy pizza shops, This hidden spot makes <br> the best New York-style pizza slice in naples”</h3>
+    </section>
+    <section class=" container-fluid py-5">
+        <h4 class=" fs-3 fw-medium text-center" style="color: rgb(198, 20, 20);">@pizzeria</h4>
+        <h1 class="fs-auto fw-medium text-center">Stay in touch</h1>
+        <div class="d-flex overflow-auto mt-5 px-3 text-center ">
+            <div class="home-stay me-3 flex-shrink-0" style="width: 190px; border-radius:30px;">
+                <img src="assets/home-stay-img1.png" class=" img-fluid" style=" border-radius:30px;" alt="Pizza">
+            </div>
+            <div class="home-stay  me-3 flex-shrink-0" style="width: 190px; border-radius:30px;">
+                <img src="assets/home-stay-img2.png" class=" img-fluid" style=" border-radius:30px;" alt="Pizza">
+            </div>
+            <div class="home-stay me-3 flex-shrink-0" style="width: 190px; border-radius:30px;">
+                <img src="assets/home-stay-img3.png" class=" img-fluid" style=" border-radius:30px;" alt="Pizza">
+            </div>
+            <div class="home-stay me-3 flex-shrink-0" style="width: 190px; border-radius:30px;">
+                <img src="assets/home-stay-img4.png" class=" img-fluid" style=" border-radius:30px;" alt="Pizza">
+            </div>
+            <div class="home-stay me-3 flex-shrink-0" style="width: 190px; border-radius:30px;">
+                <img src="assets/home-stay-img5.png" class=" img-fluid" style=" border-radius:30px;" alt="Pizza">
+            </div>
+            <div class="home-stay me-3 flex-shrink-0" style="width: 190px; border-radius:30px;">
+                <img src="assets/home-stay-img6.png" class=" img-fluid" style=" border-radius:30px;" alt="Pizza">
+            </div>
+            <div class="home-stay me-3 flex-shrink-0" style="width: 190px; border-radius:30px;">
+                <img src="assets/home-stay-img7.png" class=" img-fluid" style=" border-radius:30px;" alt="Pizza">
+            </div>
+        </div>
+    </section>
+    <section class="signup container-fluid my-5" style="border-radius: 30px;" >
+        <div class="row">
+            <div class="col-lg-4 m-auto">
+                <div>
+                    <img src="assets/signup.svg" class="w-100" alt="">
+                </div>
+            </div>
+            <div class="col-lg-8 m-auto p-5">
+                <div class="text-center">
+                    <h4 class=" fs-3 fw-medium text-center" style="color: rgb(198, 20, 20);">Our Newsletter</h4>
+                    <h1 class="fs-auto fw-medium text-center">Sign up and get 10% off</h1>
+                    <form action="index.html" name="email-login" class="m-auto w-75 mt-3" onsubmit="return ValidateEmail()">
+                        <div class="form-floating">
+                            <input type="text" name="email" id="email" placeholder="Email Address" class="form-control  rounded-pill" >
+                            <p id="emailError" class="fw-medium fs-4 pt-1 text-start text-danger"></p>
+                            <label for="">Email Address</label>
+                            <a href=""><button class="btn btn-danger  mt-3 rounded-pill fs-4 fw-medium px-5 py-2">Add to cart</button></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="email.js"></script>
+    <footer class="footer">
+        <div class="container ">
+            <div class="text-center mb-4">
+                <h4>A Moments Of Delivered On Right Time & Place</h4>
+                <div class="phone-box mx-auto">
+                <i class="fas fa-phone-alt"></i> 90-500-28-999
+                </div>
+                <h3 class="fw-bold" style="font-family: cursive;">Pizzenia</h3>
+            </div>
+            <div class="row text-center py-5 " style="border-top: 1px dotted lightgrey;">
+                <div class="col-md-6 col-lg-3">
+                    <h5>Menu</h5>
+                    <p><a href="#">Pizzas</a></p>
+                    <p><a href="#">Italian dishes</a></p>
+                    <p><a href="#">Hand Made</a></p>
+                    <p><a href="#">Deserts</a></p>
+                    <p><a href="#">Selected Wines</a></p>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h5>Info</h5>
+                    <p><a href="#">About</a></p>
+                    <p><a href="#">Contact Us</a></p>
+                    <p><a href="#">Our Menu</a></p>
+                    <p><a href="#">Blog</a></p>
+                    <p><a href="#">Faq</a></p>
+                </div>
+                <div class="col-lg-3">
+                    <h5>Contact</h5>
+                    <p>PO Box 16122 Collins</p>
+                    <p>StreetWest Victoria 8007</p>
+                    <p>Australia</p>
+                    <p>(643) 461-5630 8566</p>
+                    <p>Mon-Fri: 9:30 - 23:00</p>
+                    <p class="text-primary fw-bold">Sunday Closed</p>
+                </div>
+                <div class="col-lg-3">
+                    <h5>Download Our App</h5>
+                    <div class="app-btn">
+                        <img src="assets/playstore.svg" class="w-100 px-5" alt="">
+                    </div>
+                    <div class="app-btn">
+                        <img src="assets/appstore.svg" class="w-100 px-5" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,233 @@
+.hero {
+  background-image: url("assets/hero-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 110vh;
+  margin: auto;
+  border-radius: 30px;
+}
+
+.hero.navbar {
+  border: 1px dotted lightgrey;
+}
+.navbar-nav {
+  background-color: transparent;
+}
+.hero .navbar .nav-link ,
+.pepperoni-head .navbar .nav-link{
+  color: white !important;
+}
+.dropdown-menu.mega-menu {
+  width: 100%;    
+  left: 0;
+  right: 0;
+  padding: 20px;
+  border-radius: 15px;
+}
+.dropdown-menu.mega-menu h6{
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #222;
+}
+.home1.dropdown-menu.mega-menu h6{
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.dropdown-menu.mega-menu .dropdown-item {
+  padding: 2px 0;
+  color: #444;
+}
+.dropdown-menu.mega-menu .dropdown-item:hover {
+  color: orangered;
+  background: transparent;
+}
+.main {
+  width: 90%;
+  margin-top: 50px;
+  background-color: rgb(255, 233, 191);
+  border-radius: 30px;
+}
+
+.hide-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.home-categories {
+  border: 1px solid lightgrey;
+  transition: 0.3s;
+}
+.home-categories:hover {
+  background-color: wheat;
+  border: 3px solid rgb(98, 12, 12);
+}
+
+.home-offer,
+.home-offer-1,
+.home-offer-2 {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+.home-offer {
+  height: 80vh;
+  background-image: url("assets/home-special1.png");
+}
+.home-offer1 {
+  height: 40vh;
+  background-image: url("assets/home-special2.png");
+  
+}
+.home-offer-2 {
+  height: 40vh;
+  background-image: url("assets/home-special3.png");
+}
+.home-offer-btn:hover {
+  color: orangered;
+}
+.home-special-offer {
+  background-color: #1F1F27;
+  height: auto;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.contact-info-bg {
+  width: 100%;
+  height: 100%;
+  background-image: url("assets/home-contact-banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.signup {
+  background-color: rgb(255, 233, 191);
+}
+
+.footer {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 60px 0 30px;
+}
+.footer h5 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.footer a {
+  color: #ddd;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #f1c40f;
+}
+.footer .phone-box {
+  display: flex;
+  align-items: center;
+  background: #f1c40f;
+  color: #111;
+  padding: 15px 20px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 20px;
+  width: fit-content;
+  margin-bottom: 30px;
+}
+.footer .app-btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.home-pizza{
+  background-image: url("assets/home-pizza.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+}
+.home-wraps{
+  background-image: url("assets/home-wraps-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+}
+.home-burger{
+  background-image: url("assets/home-burger-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+}
+.home1-banner{
+  background-image: url("assets/home-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 85vh;
+}
+.pepperoni-head{
+  background-image: url("assets/pepperoni-banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+header a {
+  text-decoration: none !important;
+}
+
+
+.about-head{
+  background-image: url("assets/about-head-bg.png");
+  background-position: start;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto; 
+}
+.chef-img {
+  width: 250px;      /* same width */
+  height: 250px;     /* same height */
+  border: 2px solid red;
+  border-radius: 50%;
+  padding: 10px;
+  overflow: hidden;
+  margin: 0 auto;    /* center inside column */
+}
+.chef-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* keeps image inside circle without stretching */
+  border-radius: 50%;
+}
+.blog-items img{
+  border-radius: 30px;
+  height:300px
+}
+.blog-items a{
+  text-decoration: none !important;
+  color: #111;
+}
+.dessert .card-body img,
+.wrap .card-body img{
+  height: 350px;
+}
+.pizza .card-body img{
+  height: 300px;
+}
