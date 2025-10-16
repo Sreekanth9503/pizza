@@ -90,16 +90,16 @@
   border-radius: 20px;
 }
 .home-offer {
-  height: 80vh;
+  height: 100%;
   background-image: url("assets/home-special1.png");
 }
 .home-offer1 {
-  height: 40vh;
+  height: 100%;
   background-image: url("assets/home-special2.png");
   
 }
 .home-offer-2 {
-  height: 40vh;
+  height: 100%;
   background-image: url("assets/home-special3.png");
 }
 .home-offer-btn:hover {
@@ -245,5 +245,6 @@ header a {
   height: 300px;
 
 }
+
 
 
