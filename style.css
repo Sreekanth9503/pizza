@@ -27,6 +27,9 @@
 .navbar-nav {
   background-color: transparent;
 }
+.nav-item a{
+  font-size:20px;
+}
 .hero .navbar .nav-link ,
 .hero1 .navbar .nav-link ,
 .pepperoni-head .navbar .nav-link{
@@ -245,6 +248,7 @@ header a {
   height: 300px;
 
 }
+
 
 
 
