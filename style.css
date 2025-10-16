@@ -8,14 +8,27 @@
   margin: auto;
   border-radius: 30px;
 }
-
+.hero1 {
+  background-image: url("assets/hero-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  border-radius: 30px;
+}
 .hero.navbar {
+  border: 1px dotted lightgrey;
+}
+.hero1.navbar {
   border: 1px dotted lightgrey;
 }
 .navbar-nav {
   background-color: transparent;
 }
 .hero .navbar .nav-link ,
+.hero1 .navbar .nav-link ,
 .pepperoni-head .navbar .nav-link{
   color: white !important;
 }
@@ -232,3 +245,4 @@ header a {
   height: 300px;
 
 }
+
